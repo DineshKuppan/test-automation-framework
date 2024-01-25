@@ -50,3 +50,7 @@ mvn clean test -Dtest=com.bytes2gram.framework.test.CalculatorTest
 allure serve target/allure-results
 
 ```
+
+## Sample Allure Report
+
+![Allure Report](.github/allure_report.png)

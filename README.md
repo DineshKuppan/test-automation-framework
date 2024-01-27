@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# test-automation-framework
-A simple test automation framework which provides the following features:
+# test-automation-project
+A simple testng automation project to write tests with only TestNG features - (No Selenium/RestAssured/Apache HTTP Client support for initial version)
 
 - TestNG based framework
 - Integrated with [Allure Report](https://allurereport.org/)
@@ -21,8 +21,8 @@ To compile, test, and build
 
 1. Clone the repository from GitHub:
 ```bash
-$ git clone git@github.com:DineshKuppan/test-automation-framework.git
-$ cd test-automation-framework
+$ git clone git@github.com:DineshKuppan/test-automation-project.git
+$ cd test-automation-project
 ```
 2. The project uses [Maven](http://maven.apache.org/) to build:
 ```
@@ -31,7 +31,7 @@ $ mvn clean package -DskipTests
 
 Alternative
 
-Install the `test-automation-framework` in you local Maven repository (`$HOME/.m2` or `$USER_PROFILE/.m2`) directory.
+Install the `test-automation-project` in you local Maven repository (`$HOME/.m2` or `$USER_PROFILE/.m2`) directory.
 
 ```bash
 $ mvn clean install -DskipTests

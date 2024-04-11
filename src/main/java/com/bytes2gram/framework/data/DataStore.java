@@ -9,8 +9,8 @@ import lombok.extern.slf4j.Slf4j;
  *
  * @author dinesh
  * @version 1.0
- * <p>
- * <p>An internal data store used to access data's between the session's at runtime
+ *     <p>
+ *     <p>An internal data store used to access data's between the session's at runtime
  */
 @Slf4j
 public class DataStore {
@@ -19,8 +19,7 @@ public class DataStore {
       ThreadLocal.withInitial(ConcurrentHashMap::new);
 
   // private constructor to avoid the instantiation
-  private DataStore() {
-  }
+  private DataStore() {}
 
   /**
    * Implementation of ThreadLocal get method

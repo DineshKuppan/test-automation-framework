@@ -21,5 +21,4 @@ public class SharedData {
   public static Object get(String key) {
     return getDataStoreMap().get(key);
   }
-
 }

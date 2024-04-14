@@ -10,9 +10,7 @@ public class CalculatorTest {
 
   // Disabling the test
 
-  /**
-   * Test to verify the add/sum functionality for the given numbers.
-   */
+  /** Test to verify the add/sum functionality for the given numbers. */
   @Test(
       enabled = false,
       description = "Test to verify the add/sum functionality for the given numbers")
@@ -21,18 +19,14 @@ public class CalculatorTest {
     Assert.assertEquals(result, 7);
   }
 
-  /**
-   * Test to verify the subtract functionality for the given numbers.
-   */
+  /** Test to verify the subtract functionality for the given numbers. */
   @Test(description = "Test to verify the subtract functionality for the given numbers")
   public void testSubtract() {
     int result = CalculatorUtil.subtraction(10, 2);
     Assert.assertTrue(result == 9);
   }
 
-  /**
-   * Test to verify the multiplication functionality for the given numbers.
-   */
+  /** Test to verify the multiplication functionality for the given numbers. */
   @Test(description = "Test to verify the multiplication functionality for the given numbers")
   public void testMultiplication() {
     int expected = 30;
@@ -40,9 +34,7 @@ public class CalculatorTest {
     Assert.assertEquals(result, expected);
   }
 
-  /**
-   * Test to verify the division functionality for the given numbers non-zero division number.
-   */
+  /** Test to verify the division functionality for the given numbers non-zero division number. */
   @Test(
       description =
           "Test to verify the division functionality for the given numbers non-zero division number")
